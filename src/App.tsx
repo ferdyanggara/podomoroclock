@@ -88,7 +88,7 @@ const App = () => {
       // to do this we'll use setInterval
       const newIntervalId = setInterval(() => {
         setTimeLeft((prevTimeLeft) => prevTimeLeft - 1);
-      }, 10);
+      }, 1000);
       setIntervalId(newIntervalId);
     }
   };
